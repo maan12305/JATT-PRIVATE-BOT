@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6374568994:AAHSy5yjiTLJmdLJAK8h_73JEzob0hc
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1462396507').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Im_professor_22")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002037836704'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/maam_movies_backup')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/clxxoxpxp')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002042843605').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://noname5911315:maanjatt@yuvrajmaan.ypfzoc6.mongodb.net/?retryWrites=true&w=majority&appName=yuvrajmaan")
 
@@ -39,11 +39,11 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001949498981'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/howtoopin")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "e02fb0028bd6ec39e18a59f11b09474a31ce980c")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'tryshort.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "e02fb0028bd6ec39e18a59f11b09474a31ce980c")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'tryshort.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "e02fb0028bd6ec39e18a59f11b09474a31ce980c")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'tryshort.in')
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantlinks.co')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "0b7e5705bdfbc9be5ee531acb06546edc59911c8")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'instantlinks.co')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "0b7e5705bdfbc9be5ee531acb06546edc59911c8")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'instantlinks.co')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "28800"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "28800"))
 
